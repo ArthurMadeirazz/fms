@@ -206,9 +206,10 @@ section.especialidade .flex{
 
 }
 .especialidade p{
-    padding: px;
+    
     margin-left: 20px;
     font-size: 15px;
+    margin-inline-end: 100px;
 }
 .flex> .tangue{
     
@@ -229,17 +230,19 @@ section.sobre{
 }
 .txt-sobre h2{
     text-align: center;
-    text-size-adjust: 60px;
+    text-size-adjust: 30px;
     font-size: 38px;
     color: white;
+    
 }
 .txt-sobre h2 span{
     color: #e7be08;
 }
 .txt-sobre p{
     color:#fff;
-    font-size: 15px;
+    font-size: 20px;
     padding: 0px 0%;
+    margin-inline-end: 100px;
 }
 
 section.sobre .flex{
@@ -368,10 +371,15 @@ footer .linha-up p a{
        
         font-size: 28px;
         line-height: 33px;
+        margin-inline-end: 30px;
+}
+.topo-do-site p{
+    margin-inline-end: 30px;
 }
 .topo-do-site .img-topo-site{
     width: 1%;
-    
+    margin: 100px;
+    display: none;
 }
 /* ESPECIALIDADES */
 .especialidade p{
